@@ -1,10 +1,17 @@
 
+body {
+  font-family: Arial, sans-serif;
+}
+
 main {
-  height:500px;
+  height:233px;
+  width: 1340px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding-top: 150px;
+  
 }
 
 .btn-search {
@@ -56,4 +63,43 @@ main {
 
 .logo-google {
   margin-bottom: 30px;
+}
+
+
+li a {
+  text-decoration: none;
+  display: inline;
+  color: #484848;
+  font-size: 13px;
+  width: 60px;
+  padding: 8px;
+}
+
+a{
+  display: block;
+
+}
+
+.float-right {
+  float: right;
+  padding: 12px 5px;
+  margin-top: 8px;
+
+}
+
+.float-left {
+  float: left;
+  padding: 19px 12px;
+}
+
+.float-right-1 {
+  float: right;
+  padding: 12px 5px;
+  margin-top: 8px;
+  margin-right: 10px;
+  background-color: #4385f7;
+}
+
+.float-right-1 a {
+  color: white;
 }
