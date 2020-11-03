@@ -103,3 +103,15 @@ a{
 .float-right-1 a {
   color: white;
 }
+
+.footer-right {
+  float: right;
+  padding: 19px 12px;
+  margin-top: 160px;
+}
+
+.footer-left {
+  float: left;
+  padding: 19px 12px;
+  margin-top: 160px;
+}
