@@ -107,11 +107,16 @@ a{
 .footer-right {
   float: right;
   padding: 19px 12px;
-  margin-top: 160px;
+  
 }
 
 .footer-left {
   float: left;
   padding: 19px 12px;
-  margin-top: 160px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  height: 55px;
+  margin-top: 165px;
 }
